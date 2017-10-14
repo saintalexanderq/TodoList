@@ -13,6 +13,9 @@
 		0AFC84321F928C50004B4C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC84311F928C50004B4C1A /* Assets.xcassets */; };
 		0AFC84351F928C50004B4C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC84331F928C50004B4C1A /* LaunchScreen.storyboard */; };
 		0AFC84381F928C50004B4C1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC84371F928C50004B4C1A /* main.m */; };
+		0AFC84401F928DD5004B4C1A /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC843F1F928DD5004B4C1A /* ListTableViewCell.m */; };
+		0AFC84431F9293D3004B4C1A /* Main1111.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC84411F9293D3004B4C1A /* Main1111.storyboard */; };
+		0AFC84461F929450004B4C1A /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFC84451F929450004B4C1A /* AddItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		0AFC84341F928C50004B4C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AFC84361F928C50004B4C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AFC84371F928C50004B4C1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AFC843E1F928DD5004B4C1A /* ListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		0AFC843F1F928DD5004B4C1A /* ListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		0AFC84421F9293D3004B4C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TodoListApplication/Base.lproj/Main1111.storyboard; sourceTree = "<group>"; };
+		0AFC84441F929450004B4C1A /* AddItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		0AFC84451F929450004B4C1A /* AddItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 		0AFC841C1F928C50004B4C1A = {
 			isa = PBXGroup;
 			children = (
+				0AFC84411F9293D3004B4C1A /* Main1111.storyboard */,
 				0AFC84271F928C50004B4C1A /* TodoListApplication */,
 				0AFC84261F928C50004B4C1A /* Products */,
 			);
@@ -67,6 +76,10 @@
 				0AFC84331F928C50004B4C1A /* LaunchScreen.storyboard */,
 				0AFC84361F928C50004B4C1A /* Info.plist */,
 				0AFC84371F928C50004B4C1A /* main.m */,
+				0AFC843E1F928DD5004B4C1A /* ListTableViewCell.h */,
+				0AFC843F1F928DD5004B4C1A /* ListTableViewCell.m */,
+				0AFC84441F929450004B4C1A /* AddItemViewController.h */,
+				0AFC84451F929450004B4C1A /* AddItemViewController.m */,
 			);
 			path = TodoListApplication;
 			sourceTree = "<group>";
@@ -132,6 +145,7 @@
 				0AFC84351F928C50004B4C1A /* LaunchScreen.storyboard in Resources */,
 				0AFC84321F928C50004B4C1A /* Assets.xcassets in Resources */,
 				0AFC84301F928C50004B4C1A /* Main.storyboard in Resources */,
+				0AFC84431F9293D3004B4C1A /* Main1111.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AFC842D1F928C50004B4C1A /* ViewController.m in Sources */,
+				0AFC84401F928DD5004B4C1A /* ListTableViewCell.m in Sources */,
 				0AFC84381F928C50004B4C1A /* main.m in Sources */,
+				0AFC84461F929450004B4C1A /* AddItemViewController.m in Sources */,
 				0AFC842A1F928C50004B4C1A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +181,14 @@
 				0AFC84341F928C50004B4C1A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0AFC84411F9293D3004B4C1A /* Main1111.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AFC84421F9293D3004B4C1A /* Base */,
+			);
+			name = Main1111.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

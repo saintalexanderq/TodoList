@@ -79,51 +79,21 @@
             </objects>
             <point key="canvasLocation" x="260" y="132.68365817091455"/>
         </scene>
-        <!--Add Item View Controller-->
+        <!--View Controller-->
         <scene sceneID="GfH-vM-0RF">
             <objects>
-                <viewController id="Cf6-wr-uRW" customClass="AddItemViewController" sceneMemberID="viewController">
+                <viewController id="Cf6-wr-uRW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FgV-yB-hf1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter New Todo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vNz-UL-cZf">
-                                <rect key="frame" x="16" y="94" width="343" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="MBr-6P-1m0"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="vNz-UL-cZf" firstAttribute="leading" secondItem="Zls-1X-JoO" secondAttribute="leading" constant="16" id="6VS-2B-gqy"/>
-                            <constraint firstItem="Zls-1X-JoO" firstAttribute="trailing" secondItem="vNz-UL-cZf" secondAttribute="trailing" constant="16" id="CUP-2V-Psw"/>
-                            <constraint firstItem="vNz-UL-cZf" firstAttribute="top" secondItem="Zls-1X-JoO" secondAttribute="top" constant="30" id="e0u-jv-VjP"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Zls-1X-JoO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ZkU-CN-6s0">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="hyI-wb-fYy">
-                            <connections>
-                                <action selector="cancel:" destination="Cf6-wr-uRW" id="nnH-AZ-d2a"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="fIh-F9-T8l">
-                            <connections>
-                                <action selector="save:" destination="Cf6-wr-uRW" id="B2d-EQ-IJu"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="textField" destination="vNz-UL-cZf" id="OVM-nj-V7Y"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="ZkU-CN-6s0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ocE-kQ-qji" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1869.5999999999999" y="132.68365817091455"/>
+            <point key="canvasLocation" x="1871" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KES-dx-Ncm">
